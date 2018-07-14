@@ -1,0 +1,22 @@
+body{background:url(sources/bg.png); center no-repeat fixed;}
+h1{text-align:center;}
+a{text-decoration:none;color:orange;}
+a:hover{text-decoration:2px double orange;font-weight:bold;color:orange;}
+a:visited{text-decoration:none;color:orange;}
+.menu {
+background: linear-gradient(to bottom, orange, gray);
+border: 1px solid black;
+padding: 0 5px;
+font: 12px Arial, sans-serif;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}.menu li {
+display: inline-block;
+border-right: 1px solid #fff;
+}.menu a {
+text-decoration: none;
+color: black;
+display: block;
+padding: 10px 14.3px;
+border-right: 1px solid #d8d8d8;
+}.menu a:hover { color:block; }
+.priv{border:3px orange inset}
